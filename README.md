@@ -1,4 +1,4 @@
-# 🚴‍♂️ Cycling Classics Calendar Automator
+# 🚴‍♂️ Cycling Calendar Automation
 
 Ce projet permet d'automatiser l'ajout des classiques cyclistes (Ardennaises, Flandriennes, etc.) dans **Google Calendar** directement depuis un fichier **Google Sheets**.
 
@@ -26,7 +26,7 @@ Le script attend un tableau avec la structure suivante :
 2. Allez dans `Extensions` > `Apps Script`.
 3. Copiez le code contenu dans `code.js` de ce dépôt et collez-le dans l'éditeur.
 4. Enregistrez et cliquez sur le bouton **Exécuter** (une autorisation sera demandée lors du premier lancement).
-5. (Optionnel) Créez un bouton dans votre feuille de calcul (Insertion > Dessin) et liez-le à la fonction `ajouterCourseAvecHeureSpecifique`.
+5. (Optionnel) Créez un bouton dans votre feuille de calcul (Insertion > Dessin) et liez-le à la fonction `addToCalendar`.
 
 ## ⚙️ Configuration du Script
 
@@ -36,4 +36,3 @@ Le script est actuellement configuré pour :
 - Une vérification sur la **colonne D** pour marquer l'importation.
 
 ---
-Projet créé par un passionné de cyclisme pour ne plus jamais rater une attaque dans le Vieux Quaremont ! 🏁
