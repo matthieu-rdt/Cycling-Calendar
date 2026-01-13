@@ -17,8 +17,8 @@ Le script attend un tableau avec la structure suivante :
 
 | Colonne A | Colonne B | Colonne C | Colonne D |
 | :--- | :--- | :--- | :--- |
-| **Nom de la course** | **Date** (JJ/MM/AAAA) | **Heure** (HH:mm) | **Statut Import** |
-| Paris-Roubaix | 12/04/2026 | 13:00 | |
+| **Nom de la course** | **Date-début** (JJ/MM/AAAA) | **Date-fin** (JJ/MM/AAAA) | **Statut Import** |
+| Paris-Roubaix | 12/04/2026 | 12/04/2026 | |
 
 ## 🚀 Installation et Utilisation
 
